@@ -1,0 +1,24 @@
+PROJECT FOO:
+- step zero [b/1234]
+TODO- step one, overdue DUE Wed!
+TODO- step two, due this week DUE Fri
+TODO- other very important thing DUE week+1
+TODO- less important thing DUE week+2
+TODO- don't forget this either DUE week+3
+
+PROJECT BAR:
+TODO- step A DUE 10/3
+TODO- step B
+  // comments for step B
+TODO- step C has a substep
+  TODO- substep C1
+TODO- step D has so many substeps, they're folded and hidden
+  TODO- substep D1
+  TODO- substep D2
+  TODO- substep D3
+
+PROJECT QUX:
+- cl/1357: submitted this changelist to fix a bug [b/2468]
+- cl/1234*: almost done with this changelist [b/5678]
+- did more stuff
+
