@@ -1,8 +1,8 @@
 PROJECT FOO:
 - step zero [b/1234]
-TODO- step one, overdue DUE Wed!
-TODO- step two, due this week DUE Fri
-TODO- other very important thing DUE week+1
+TODO1- step one, overdue DUE Wed!
+TODO2- step two, due this week DUE Fri
+TODO3- other very important thing DUE week+1
 TODO- less important thing DUE week+2
 TODO- don't forget this either DUE week+3
 
