@@ -15,7 +15,7 @@ The background color is pale yellow because it makes me think of post-it notes.
 
 Be sure to `:set filetype=todo` or nothing will work.
 
-New commands available:
+Commands available:
 - **Shift-0:** mark uncompleted task with default priority ("TODO"); gray text
 - **Shift-1:** mark uncompleted task with highest priority ("TODO1"); red text
 - **Shift-2:** mark uncompleted task with highest priority ("TODO2"); orange text
@@ -24,6 +24,8 @@ New commands available:
 - **underscore:** complete task; black text
 - **plus:** increment all "DUE week+N" text to be N-1, and mark any that were
   "DUE <day-of-the-week>" as "OVERDUE"
+- **exclamation:** display due dates that are a day of the week that is past
+  today, ie overdue (3-letter weekday abbreviations only) 
 
 So basically, type "!" at the start of each day, and "+" at the start of each
 week, to update the due dates appropriately. Then use Shift-<N> to mark a task
