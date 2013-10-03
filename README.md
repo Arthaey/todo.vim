@@ -1,5 +1,4 @@
-todo.vim
-========
+# todo.vim
 
 Colorful syntax &amp; ftplugin files for keeping a TODO list in Vim.
 
@@ -7,6 +6,14 @@ TODOs can be flagged in increasingly bright levels of priority, and can be
 marked with due dates that can be easily incremented.
 
 The background color is pale yellow because it makes me think of post-it notes.
+
+## Screenshot
+
+![TODO screenshot](screenshot.png?raw=true)
+
+## Usage
+
+Be sure to `:set filetype=todo` or nothing will work.
 
 New commands available:
 - **Shift-0:** mark uncompleted task with default priority ("TODO"); gray text
