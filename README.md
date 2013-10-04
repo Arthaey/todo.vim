@@ -13,13 +13,13 @@ The background color is pale yellow because it makes me think of post-it notes.
 
 ## Usage
 
-Be sure to `:set filetype=todo` or nothing will work.
+Be sure to `:set filetype=todo` or nothing will work. Or edit a file named .todo
 
 Commands available:
-- **Shift-0:** mark uncompleted task with default priority ("TODO"); gray text
-- **Shift-1:** mark uncompleted task with highest priority ("TODO1"); red text
-- **Shift-2:** mark uncompleted task with highest priority ("TODO2"); orange text
-- **Shift-3:** mark uncompleted task with highest priority ("TODO3"); yellow text
+- **0:** mark uncompleted task with default priority ("TODO"); gray text
+- **1:** mark uncompleted task with highest priority ("TODO1"); red text
+- **2:** mark uncompleted task with highest priority ("TODO2"); orange text
+- **3:** mark uncompleted task with highest priority ("TODO3"); yellow text
 - **asterisk:** mark task as currently in-progress; yellow text on yellow background
 - **underscore:** complete task; black text
 - **plus:** increment all "DUE week+N" text to be N-1, and mark any that were
